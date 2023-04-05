@@ -12,6 +12,8 @@ mybatis会依据这个接口动态创建一个实现类去实现这个接口，
 　　resultType = "返回实体类对象，使用包.类名"-->
     <select id="findById" parameterType="int"
             resultType="com.jcven.pojo.User">
-	 	select * from users where uid = #{id}
-	</select>
+        select *
+        from users
+        where uid = #{id}
+    </select>
 </mapper>

@@ -1,9 +1,9 @@
 package com.jcven.pojo;
 
 public class Student {
-    private Integer id;            //主键id
-    private String name;          //学生姓名
-    private Integer age;          //学生年龄
+    private Integer id;            // 主键id
+    private String name;          // 学生姓名
+    private Integer age;          // 学生年龄
 
     public Integer getId() {
         return id;

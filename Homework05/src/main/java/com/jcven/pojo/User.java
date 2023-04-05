@@ -1,9 +1,9 @@
 package com.jcven.pojo;
 
 public class User {
-    private int uid;             //用户id
-    private String uname;       //用户姓名
-    private int uage;            //用户年龄
+    private int uid;             // 用户id
+    private String uname;       // 用户姓名
+    private int uage;            // 用户年龄
 
     public int getUid() {
         return uid;
