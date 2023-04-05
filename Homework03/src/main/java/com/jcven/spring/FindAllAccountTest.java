@@ -4,10 +4,11 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.List;
+
 public class FindAllAccountTest {
     public static void main(String[] args) {
         // 加载配置文件
-        ApplicationContext applicationContext =new
+        ApplicationContext applicationContext = new
                 ClassPathXmlApplicationContext("applicationContext.xml");
         // 获取AccountDao实例
         AccountDao accountDao =

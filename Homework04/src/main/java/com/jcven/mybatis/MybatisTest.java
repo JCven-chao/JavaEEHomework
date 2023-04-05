@@ -14,8 +14,7 @@ public class MybatisTest {
         InputStream inputStream = Resources.getResourceAsStream(resource);
         SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);
         SqlSession sqlSession = sqlSessionFactory.openSession();
-
-        //执行
+        // 执行
         UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
         User user = userMapper.findById(1);
         System.out.println(user);

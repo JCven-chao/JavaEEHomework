@@ -6,6 +6,9 @@
         <fileset id="fileset" name="ApplicationContext Anno" removed="false">
           <file>file://$MODULE_DIR$/Homework02/src/main/resources/applicationContext-Anno.xml</file>
         </fileset>
+        <fileset id="fileset2" name="ApplicationContext" removed="false">
+          <file>file://$MODULE_DIR$/Homework02/src/main/resources/applicationContext.xml</file>
+        </fileset>
       </configuration>
     </facet>
   </component>

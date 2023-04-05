@@ -31,6 +31,7 @@ public class AnnoAdvice {
         return object;
     }
 
+
     @AfterThrowing("pointcut()")
     public void afterException() {
         System.out.print("异常通知");

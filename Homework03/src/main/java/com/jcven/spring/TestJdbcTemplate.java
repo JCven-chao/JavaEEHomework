@@ -3,6 +3,7 @@ package com.jcven.spring;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.jdbc.core.JdbcTemplate;
+
 public class TestJdbcTemplate {
     /**
      * 调用execute()方法建表

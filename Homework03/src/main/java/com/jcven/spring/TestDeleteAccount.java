@@ -2,10 +2,11 @@ package com.jcven.spring;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 public class TestDeleteAccount {
     public static void main(String[] args) {
         // 加载配置文件
-        ApplicationContext applicationContext =new
+        ApplicationContext applicationContext = new
                 ClassPathXmlApplicationContext("applicationContext.xml");
         // 获取AccountDao实例
         AccountDao accountDao =

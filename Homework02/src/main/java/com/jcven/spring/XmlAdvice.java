@@ -22,6 +22,7 @@ public class XmlAdvice {
         return object;
     }
 
+
     public void afterException() {
         System.out.print("异常通知");
     }
